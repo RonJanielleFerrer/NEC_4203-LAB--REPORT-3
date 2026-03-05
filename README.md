@@ -19,9 +19,9 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - Patch cords  
 
 ### Block diagram: Natural sampling
-<div align="center" width="500" height="500">
-![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/d47d6f4a-9470-4070-9731-0467250ee20c
-  ![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/194834b8-1f15-4cba-8fc6-cca42a0d0886)
+<div align="center" width="500" height="500" alt="image">
+
+![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/5b5af64f-f1a4-44cc-beb9-cff7841b525d)
 
 </div>
 
