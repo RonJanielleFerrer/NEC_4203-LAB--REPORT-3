@@ -1,305 +1,323 @@
-# NEC_4203-LAB--REPORT-3
-This laboratory report for Advanced Communication System and Design Laboratory (NEC_4203) covers Experiments 11–20 on phase modulation, sampling, pulse modulation, digital encoding, and system integration. The activities reinforce advanced analog and digital communication system design principles.
+# Experiments 11–20
+Advanced Communication System and Design Laboratory (NEC_4203)
 
-# Experiment 11 – Phase Modulation (PM)
+---
 
-## Objective
-The objective of this experiment is to generate and analyze a phase-modulated signal and understand how a message signal affects the phase of a carrier waveform.
+<details>
+<summary>Experiment 11 - Sampling and Reconstruction</summary>
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Objective
+To demonstrate signal sampling and reconstruction and verify the Nyquist sampling theorem.
 
-## Circuit / Block Diagram
-A phase modulation block was configured where the message signal controls the phase of a high-frequency carrier.
+### Introduction
+Sampling converts a continuous-time analog signal into a discrete-time signal by measuring its amplitude at regular intervals. According to the Nyquist theorem, the sampling frequency must be at least twice the highest signal frequency to avoid aliasing. In this experiment, the signal is sampled and reconstructed using filtering techniques to observe how the original waveform can be recovered.
 
-## Procedure / Experimental Setup
-1. A carrier signal was generated.
-2. A low-frequency message signal was applied to the phase control input.
-3. The output waveform was observed using the oscilloscope.
-4. Modulation index was adjusted and analyzed.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Function generator  
+- Patch cords  
 
-## Theory and Concepts
-Phase modulation varies the phase angle of a carrier signal in proportion to the message amplitude. Unlike AM, the amplitude remains constant while phase changes encode information.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Results and Observations
-Waveform phase shifts were observed corresponding to message amplitude variations.
+### Code
+No programming code was required. The configuration was implemented using telecom trainer modules.
 
-## Conclusion
-The experiment successfully demonstrated phase modulation and its relationship to frequency modulation.
+### Results and Discussion
+The signal was sampled at different frequencies. Proper sampling allowed accurate reconstruction of the original signal while undersampling produced distortion and aliasing effects.
 
-## Reflection / Learning Summary
-I learned how phase variation carries information and how modulation index affects waveform behavior.
+### Reflection / Learning Summary
+This experiment demonstrated how proper sampling frequency ensures accurate signal reconstruction in digital communication systems.
 
-# Experiment 12 – Comparison of AM, FM, and PM
+</details>
 
-## Objective
-The objective of this experiment is to compare amplitude, frequency, and phase modulation techniques in terms of waveform behavior and signal characteristics.
+---
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+<details>
+<summary>Experiment 12 - PCM Encoding</summary>
 
-## Circuit / Block Diagram
-Separate setups were created for AM, FM, and PM generation.
+### Objective
+To convert an analog signal into a digital PCM signal through sampling, quantization, and encoding.
 
-## Procedure / Experimental Setup
-1. AM, FM, and PM signals were generated individually.
-2. Waveforms were observed and compared.
-3. Signal bandwidth and noise resistance characteristics were analyzed.
+### Introduction
+Pulse Code Modulation (PCM) is a digital communication technique that converts analog signals into digital form. The process involves sampling the signal, quantizing the values, and encoding them into binary form. PCM is widely used in digital telephony and audio communication because it provides reliable signal transmission.
 
-## Theory and Concepts
-AM varies amplitude, FM varies frequency, and PM varies phase. Each technique offers different bandwidth requirements and noise performance.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Results and Observations
-FM and PM showed better noise immunity compared to AM.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Conclusion
-The experiment highlighted the advantages and limitations of each analog modulation technique.
+### Code
+PCM encoding was implemented using telecom trainer modules.
 
-## Reflection / Learning Summary
-This comparison improved my understanding of when each modulation method is used in real communication systems.
+### Results and Discussion
+The analog signal was sampled and converted into a digital binary sequence representing the quantized signal levels.
 
-# Experiment 13 – Sampling and Reconstruction
+### Reflection / Learning Summary
+The experiment demonstrated the process of converting analog information into digital data for reliable communication.
 
-## Objective
-The objective of this experiment is to understand signal sampling and verify the Nyquist sampling theorem.
+</details>
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+---
 
-## Circuit / Block Diagram
-A sampler and low-pass filter were used to sample and reconstruct the message signal.
+<details>
+<summary>Experiment 13 - PCM Decoding</summary>
 
-## Procedure / Experimental Setup
-1. A sinusoidal signal was generated.
-2. The signal was sampled at different sampling frequencies.
-3. The sampled signal was passed through a reconstruction filter.
-4. Outputs were observed and compared.
+### Objective
+To decode a PCM signal and reconstruct the original analog waveform.
 
-## Theory and Concepts
-According to the Nyquist theorem, a signal must be sampled at least twice its highest frequency to avoid aliasing.
+### Introduction
+PCM decoding converts a digital PCM signal back into an analog signal. The decoder interprets the binary codes, reconstructs the quantized levels, and applies filtering to smooth the signal. This process is essential in digital receivers to recover transmitted information.
 
-## Results and Observations
-Undersampling caused aliasing, while proper sampling allowed accurate signal reconstruction.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Conclusion
-The experiment validated the Nyquist sampling theorem.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Reflection / Learning Summary
-I understood the importance of sampling frequency in digital communication systems.
+### Code
+PCM decoding implemented using telecom trainer modules.
 
-# Experiment 14 – Pulse Amplitude Modulation (PAM)
+### Results and Discussion
+The decoded signal closely resembled the original analog waveform after passing through the reconstruction filter.
 
-## Objective
-The objective of this experiment is to generate and analyze pulse amplitude modulated signals.
+### Reflection / Learning Summary
+This experiment demonstrated how digital signals can be decoded and restored into their original analog form.
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+</details>
 
-## Circuit / Block Diagram
-A sampler block was used to produce PAM signals.
+---
 
-## Procedure / Experimental Setup
-1. A message signal was applied to the sampler.
-2. Sampling pulses were generated.
-3. PAM output was observed on the oscilloscope.
+<details>
+<summary>Experiment 14 - BW Limiting and Restoring Digital Signals</summary>
 
-## Theory and Concepts
-In PAM, the amplitude of each pulse corresponds to the instantaneous value of the message signal.
+### Objective
+To observe the effects of bandwidth limitation on digital signals and analyze signal restoration methods.
 
-## Results and Observations
-The pulse heights matched the message signal amplitude at sampling instances.
+### Introduction
+Bandwidth limitations in communication channels can distort digital signals by altering pulse shapes and causing intersymbol interference. This experiment demonstrates how limited bandwidth affects signal transmission and explores techniques used to restore distorted signals.
 
-## Conclusion
-The experiment successfully demonstrated PAM signal generation.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Reflection / Learning Summary
-I learned how analog signals are converted into pulse-based representations.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-# Experiment 15 – Pulse Width Modulation (PWM)
+### Code
+No programming code required.
 
-## Objective
-The objective of this experiment is to generate and observe pulse width modulated signals.
+### Results and Discussion
+Bandwidth limitation caused signal distortion and pulse spreading. Restoration techniques improved waveform clarity.
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Reflection / Learning Summary
+The experiment emphasized the importance of adequate bandwidth in maintaining digital signal integrity.
 
-## Circuit / Block Diagram
-A comparator and ramp signal were used to produce PWM signals.
+</details>
 
-## Procedure / Experimental Setup
-1. A message signal and ramp waveform were applied.
-2. PWM output was generated.
-3. Pulse width variations were observed.
+---
 
-## Theory and Concepts
-In PWM, the width of pulses varies according to the message signal amplitude while amplitude remains constant.
+<details>
+<summary>Experiment 15 - Amplitude Shift Keying (ASK)</summary>
 
-## Results and Observations
-Pulse width increased and decreased in proportion to the message signal.
+### Objective
+To generate and analyze ASK modulated signals for digital communication.
 
-## Conclusion
-The experiment demonstrated PWM signal characteristics.
+### Introduction
+Amplitude Shift Keying (ASK) is a digital modulation technique where the amplitude of a carrier signal changes according to binary data. A high amplitude represents binary “1” while a lower amplitude or absence of the carrier represents binary “0”. ASK is one of the simplest digital modulation schemes used in communication systems.
 
-## Reflection / Learning Summary
-This experiment showed how information can be encoded through time variation instead of amplitude.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-# Experiment 16 – Pulse Position Modulation (PPM)
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Objective
-The objective of this experiment is to generate pulse position modulated signals.
+### Code
+ASK modulation implemented using telecom trainer modules.
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Results and Discussion
+The carrier amplitude varied according to the digital input signal, representing binary information.
 
-## Circuit / Block Diagram
-PWM signals were converted into PPM signals.
+### Reflection / Learning Summary
+This experiment demonstrated how digital information can be transmitted through amplitude variations of a carrier signal.
 
-## Procedure / Experimental Setup
-1. A PWM signal was generated.
-2. The PWM output was converted to PPM.
-3. Pulse position shifts were observed.
+</details>
 
-## Theory and Concepts
-In PPM, pulse timing varies according to the message signal amplitude.
+---
 
-## Results and Observations
-Pulse positions shifted left and right depending on signal level.
+<details>
+<summary>Experiment 16 - Frequency Shift Keying (FSK)</summary>
 
-## Conclusion
-PPM encoding was successfully demonstrated.
+### Objective
+To generate and observe FSK modulated signals representing binary data.
 
-## Reflection / Learning Summary
-I learned how pulse timing can represent information efficiently.
+### Introduction
+Frequency Shift Keying (FSK) is a digital modulation technique in which the carrier frequency changes according to the binary input signal. Two different frequencies represent binary “0” and binary “1”. FSK is widely used in communication systems due to its resistance to noise.
 
-# Experiment 17 – Pulse Code Modulation (PCM)
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Objective
-The objective of this experiment is to understand and generate pulse code modulated signals.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Code
+Implemented using telecom trainer modules.
 
-## Circuit / Block Diagram
-A sampler, quantizer, and encoder were used.
+### Results and Discussion
+The output waveform showed two distinct frequencies corresponding to the binary input signals.
 
-## Procedure / Experimental Setup
-1. The signal was sampled.
-2. The sampled signal was quantized.
-3. Binary encoding was observed.
+### Reflection / Learning Summary
+This experiment demonstrated how digital data can be transmitted using frequency variations of a carrier signal.
 
-## Theory and Concepts
-PCM converts analog signals into binary digital form through sampling, quantization, and encoding.
+</details>
 
-## Results and Observations
-Digital bit streams corresponded to quantized signal levels.
+---
 
-## Conclusion
-PCM conversion was successfully demonstrated.
+<details>
+<summary>Experiment 17 - Binary Phase Shift Keying (BPSK)</summary>
 
-## Reflection / Learning Summary
-I gained understanding of how analog signals are converted into digital data.
+### Objective
+To generate and analyze BPSK modulated signals.
 
-# Experiment 18 – Line Coding Techniques
+### Introduction
+Binary Phase Shift Keying (BPSK) is a digital modulation technique where the phase of the carrier signal changes between two states to represent binary data. A phase shift of 0° typically represents binary “0”, while a 180° phase shift represents binary “1”. BPSK is widely used due to its reliability and strong noise immunity.
 
-## Objective
-The objective of this experiment is to study different line coding methods for digital transmission.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Circuit / Block Diagram
-Various line coding schemes were configured.
+### Code
+BPSK implemented using telecom trainer modules.
 
-## Procedure / Experimental Setup
-1. Digital bit streams were generated.
-2. Different encoding schemes were applied.
-3. Waveforms were compared.
+### Results and Discussion
+The carrier phase shifted according to the binary input signal producing two phase states.
 
-## Theory and Concepts
-Line coding techniques such as NRZ and Manchester coding affect bandwidth and synchronization.
+### Reflection / Learning Summary
+The experiment demonstrated how phase changes can represent digital information.
 
-## Results and Observations
-Different coding schemes showed distinct waveform characteristics.
+</details>
 
-## Conclusion
-The experiment demonstrated how encoding affects signal transmission.
+---
 
-## Reflection / Learning Summary
-I learned the importance of choosing proper line coding for reliable communication.
+<details>
+<summary>Experiment 18 - Quadrature Phase Shift Keying (QPSK)</summary>
 
-# Experiment 19 – ASK and FSK Modulation
+### Objective
+To generate and analyze QPSK signals for efficient digital transmission.
 
-## Objective
-The objective of this experiment is to generate and analyze amplitude shift keying and frequency shift keying signals.
+### Introduction
+Quadrature Phase Shift Keying (QPSK) is an advanced digital modulation technique that transmits two bits per symbol by shifting the phase of the carrier signal among four different phase states. This improves bandwidth efficiency and data transmission rate compared to simpler modulation methods.
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Circuit / Block Diagram
-Digital input controlled carrier amplitude and frequency.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Procedure / Experimental Setup
-1. Binary data was generated.
-2. ASK and FSK modulation circuits were configured.
-3. Outputs were observed.
+### Code
+QPSK implemented using telecom trainer modules.
 
-## Theory and Concepts
-ASK varies amplitude, while FSK varies frequency to represent binary data.
+### Results and Discussion
+The output waveform displayed four phase states representing two-bit combinations.
 
-## Results and Observations
-Distinct waveform changes represented digital bits.
+### Reflection / Learning Summary
+This experiment demonstrated improved data transmission efficiency using quadrature phase modulation.
 
-## Conclusion
-Digital modulation techniques were successfully demonstrated.
+</details>
 
-## Reflection / Learning Summary
-I understood how digital information is transmitted using carrier modulation.
+---
 
-# Experiment 20 – Digital Communication System Integration
+<details>
+<summary>Experiment 19 - DSSS Modulation and Demodulation</summary>
 
-## Objective
-The objective of this experiment is to integrate digital modulation, transmission, and demodulation into a complete communication system.
+### Objective
+To demonstrate Direct Sequence Spread Spectrum (DSSS) modulation and demodulation.
 
-## Materials and Components Used
-- Emona Telecoms-Trainer 101
-- Oscilloscope
-- Patch leads
+### Introduction
+Direct Sequence Spread Spectrum (DSSS) spreads the signal over a wider bandwidth using a pseudo-random spreading code. This technique improves resistance to noise, interference, and signal interception. DSSS is used in modern wireless communication systems such as Wi-Fi and GPS.
 
-## Circuit / Block Diagram
-A full transmitter-receiver chain was assembled.
+### Materials and Components Used
+- Emona Telecoms-Trainer 101  
+- Oscilloscope  
+- Patch cords  
 
-## Procedure / Experimental Setup
-1. Digital data was generated.
-2. Modulation was applied.
-3. Signal was transmitted and demodulated.
-4. Output was verified.
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
 
-## Theory and Concepts
-A complete communication system consists of a transmitter, channel, and receiver working together to transfer information reliably.
+### Code
+DSSS implemented using telecom trainer modules.
 
-## Results and Observations
-Recovered digital signals matched transmitted data.
+### Results and Discussion
+The data signal was spread using a pseudo-random sequence and successfully recovered during demodulation.
 
-## Conclusion
-The integrated system functioned successfully.
+### Reflection / Learning Summary
+The experiment showed how spread spectrum techniques improve communication reliability.
 
-## Reflection / Learning Summary
-This final experiment connected all previous concepts into one complete communication system.
+</details>
+
+---
+
+<details>
+<summary>Experiment 20 - Understanding Software Defined Radio</summary>
+
+### Objective
+To understand the concept and architecture of Software Defined Radio (SDR).
+
+### Introduction
+Software Defined Radio (SDR) is a communication system in which traditional hardware components such as modulators, demodulators, and filters are implemented using software. This allows flexible and reconfigurable communication systems capable of supporting multiple standards and applications.
+
+### Materials and Components Used
+- Computer system  
+- SDR software platform  
+- Communication modules  
+
+### Circuit Diagram
+<div align="center">
+<img src="INSERT_DIAGRAM_HERE" width="500">
+</div>
+
+### Code
+Software tools were used to configure communication system parameters.
+
+### Results and Discussion
+The SDR platform demonstrated how communication functions can be implemented and modified through software.
+
+### Reflection / Learning Summary
+This experiment introduced the concept of flexible radio systems that can be configured through software instead of fixed hardware.
+
+</details>
