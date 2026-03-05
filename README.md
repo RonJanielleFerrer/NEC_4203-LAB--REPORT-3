@@ -1,6 +1,6 @@
 # Experiments 11–20
-This laboratory report for Advanced Communication System and Design Laboratory (NEC_4203) covers Experiments 11–20 on phase modulation, sampling, pulse modulation, digital encoding, and system integration. The activities reinforce advanced analog and digital communication system design principles.
 ---
+This laboratory report for Advanced Communication System and Design Laboratory (NEC_4203) covers Experiments 11–20 on phase modulation, sampling, pulse modulation, digital encoding, and system integration. The activities reinforce advanced analog and digital communication system design principles.
 
 <details>
 <summary>Experiment 11 - Sampling and Reconstruction</summary>
