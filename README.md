@@ -20,8 +20,9 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 
 ### Block diagram: Natural sampling
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/Natural%20sampling%20BD.JPG" />
+<img width="500" height="500" alt="image" src=![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/d47d6f4a-9470-4070-9731-0467250ee20c />
 </div>
+)
 
 ### Setup: Natural sampling
 
@@ -431,7 +432,7 @@ Software Defined Radio (SDR) is a communication system in which traditional hard
 
 ### Block diagram
 <div align="center">
-![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/729155f0-7193-4d7a-9b1a-f11d71e26b5a) width="500"
+![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/729155f0-7193-4d7a-9b1a-f11d71e26b5a)
 </div>
 
 ### Code
