@@ -431,7 +431,7 @@ Software Defined Radio (SDR) is a communication system in which traditional hard
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+<img ![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/671696ad-6471-430f-a7f4-6407a34a7720) width="500">
 </div>
 
 ### Code
