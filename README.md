@@ -18,9 +18,9 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - Function generator  
 - Patch cords  
 
-### Circuit Diagram
+### Block diagram: Natural sampling
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/Natural%20sampling%20BD.JPG" />
 </div>
 
 ### Code
