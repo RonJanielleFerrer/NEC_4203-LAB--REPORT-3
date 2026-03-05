@@ -19,69 +19,63 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - Patch cords  
 
 ### Block diagram: Natural sampling
+
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/Natural%20sampling%20BD.JPG" />
 </div>
-
 
 ### Setup: Natural sampling
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Natural%20sampling%20setup.jpg" />
 </div>
 
 ### Output
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20sampling%20output.jpg" />
 </div>
-
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20samping%20and%20message%20comparison.jpg" />
 </div>
-
 
 ### Block diagram: Sample and hold/w tunable LPF(message reconstruction)
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/S%26H%20%20and%20reconstruction%20BD.jpg" />
 </div>
-
 
 ### Setup: Sample and hold sampling/w tunable LPF(message reconstruction)
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Sample%20and%20hold%20%20original%20message%20reconstruction%20setup.jpg" />
 </div>
-
 
 ### Output: Sample and hold sampling/w tunable LPF(message reconstruction)
 
 - S&H Output
   
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Sample%20and%20hold%20output.jpg" />
 </div>
 
 - Original message and S&H comparison
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20and%20message%20comparison.jpg" />
 </div>
-
 
 - Reconstructed Message to Original message comaparison
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20Reconstructed%20message%20comparison.jpg" />
 </div>
-
 
 ### Setup: Natural sampling using VCO
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/Natural%20sampling%20setup.JPG" />
 </div>
 
 ### Output: Natural sampling using VCO
@@ -89,40 +83,34 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - if VCO frequency is low
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20low%20frequency%20sampling.JPG" />
 </div>
-
 
 - if VCO frequency is high
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20high%20frequency%20sampling.JPG" />
 </div>
-
 
 ### Setup: S&H Sampling using VCO
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/S%26H%20Sampling%20VCO%20observation%20setup.JPG" />
 </div>
-
 
 ### Output: S&H Sampling using VCO
 
 - if VCO frequency is low
   
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20low%20frequency%20sampling.JPG" />
 </div>
-
 
 - if VCO frequency is high
   
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20high%20frequency%20sampling.JPG" />
 </div>
-
-
 
 ### Results and Discussion
 The signal was sampled at different frequencies. Proper sampling allowed accurate reconstruction of the original signal while undersampling produced distortion and aliasing effects.
@@ -151,30 +139,27 @@ Pulse Code Modulation (PCM) is a digital communication technique that converts a
 ### Block diagram
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%200V%20Input.JPG" />
 </div>
-
 
 ### Setup
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/FS%20and%20Digital%20signal%20comparison.jpg" />
 </div>
-
 
 ### Output
 
 - CH1(Frame synchronization) and CH2(8kHz digital clock signal) comparison
   
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Clock%20signal%20and%20Frame%20synchonization%20signal.jpg" />
 </div>
-
 
 - CH1(Frame synchronization) and CH2(PCM DATA) comparison
   
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Frame%20synchronization%20and%20PCM%20output%20data.jpg" />
 </div>
 
 - Reading the equivalent binary data of the PCM output
@@ -186,14 +171,18 @@ Pulse Code Modulation (PCM) is a digital communication technique that converts a
 ### Block diagram
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%20Variable%20DC%20Input.JPG" />
 </div>
 
 ### Setup
 
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/PCM%20Setup%20DCV.jpg" />
 </div>
+
+### Output
+
+https://github.com/user-attachments/assets/9bb37632-e221-4fab-a63e-4295a544365a
 
 
 ### Results and Discussion
@@ -220,14 +209,48 @@ PCM decoding converts a digital PCM signal back into an analog signal. The decod
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- Before filtering
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20BD.JPG" />
+</div>
+
+- After filtering
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20before%20filtering%20BD.JPG" />
 </div>
 
 
-### Code
-PCM decoding implemented using telecom trainer modules.
+### Setup
+
+- Before filtering
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2013/PCM%20Decoder%20setup.jpg" />
+</div>
+
+- After filtering
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2013/PCM%20decoder%20setup%20with%20tunable%20LPF.jpg" />
+</div>
+
+### Output
+
+- Before filtering
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output.jpg" />
+</div>
+
+- After filtering
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output%20after%20filtering.jpg" />
+</div>
 
 ### Results and Discussion
 The decoded signal closely resembled the original analog waveform after passing through the reconstruction filter.
@@ -253,13 +276,73 @@ Bandwidth limitations in communication channels can distort digital signals by a
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
+### Block diagram - PCM decoding with bandwidth limiter
+  
 <div align="center">
-
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandwidth%20limiting%20on%20PCM%20decoding.jpg" />
 </div>
 
-### Code
-No programming code required.
+
+### Setup - PCM decoding with bandwidth limiter
+
+- Without LPF(Bandwidth limiter)
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+</div>
+
+- With LPF(Bandwidth limiter)
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20and%20%20signal%20restoration%20setup.jpg" />
+</div>
+
+### Output- PCM decoding with bandwidth limiter
+
+- Without LPF(Bandwidth limiter)
+  
+https://github.com/user-attachments/assets/475d4c45-1348-4017-8844-98d8da1195f0
+
+- With LPF(Bandwidth limiter)
+
+  https://github.com/user-attachments/assets/387ec482-36ee-42d2-afc5-15907743c411
+
+### Block diagram - Digital modeling with bandwidth limiter
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Sequence%20generator%20with%20SYNC%20to%20EXT.JPG" />
+</div>
+
+- Signal recovery
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandiwdth%20limiting%20on%20sequence%20generator.JPG" />
+</div>
+
+
+### Setup - Digital modeling with bandwidth limiter
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+</div>
+
+- Signal recovery
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment 14/Digital signal modeling with bandwidth limiter and%20 signal restoration setup.jpg" />
+</div>
+
+### Output - Digital modeling with bandwidth limiter
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20with%20bandwidth%20limited%20digital%20signal%20output.jpg" />
+</div>
+
+- Signal recovery
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20recovery%20otuput.jpg" />
+</div>
 
 ### Results and Discussion
 Bandwidth limitation caused signal distortion and pulse spreading. Restoration techniques improved waveform clarity.
@@ -285,13 +368,67 @@ Amplitude Shift Keying (ASK) is a digital modulation technique where the amplitu
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- ASK Generator
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Generator%20BD.JPG" />
 </div>
 
-### Code
-ASK modulation implemented using telecom trainer modules.
+- Envelope detector(Demodulator)
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Envelope%20detector%20BD.JPG" />
+</div>
+
+- Digital data reconstruction
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Digital%20signal%20recovery%20BD.JPG" />
+</div>
+
+### Setup
+
+- Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20Generation%20setup.jpg" />
+</div>
+  
+- Envelope detector
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20Envelope%20detector%20setup.jpg" />
+</div>
+
+- Digital data reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20digital%20signal%20recovery%20setup.jpg" />
+</div>
+  
+### Output
+
+- Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20Output.jpg" />
+</div>
+  
+- Envelope detector
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20Output.jpg" />
+</div>
+
+  
+- Digital data reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20demodulation%20using%20Envelope%20detector%20Output.jpg" />
+</div>
+
 
 ### Results and Discussion
 The carrier amplitude varied according to the digital input signal, representing binary information.
@@ -317,14 +454,48 @@ Frequency Shift Keying (FSK) is a digital modulation technique in which the carr
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Generation%20BD.JPG" />
+</div>
+
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Restoration%20BD.JPG" />
 </div>
 
 
-### Code
-Implemented using telecom trainer modules.
+### Setup
+
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2016/FSK%20Generation%20setup.jpg" />
+</div>
+
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2016/FSK%20restoration%20setup.jpg" />
+</div>
+
+### Output
+
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Output.jpg" />
+</div>
+
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Restoration%20output%20comparison.jpg" />
+</div>
 
 ### Results and Discussion
 The output waveform showed two distinct frequencies corresponding to the binary input signals.
@@ -350,13 +521,68 @@ Binary Phase Shift Keying (BPSK) is a digital modulation technique where the pha
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Generation%20BD.JPG" />
 </div>
 
-### Code
-BPSK implemented using telecom trainer modules.
+- BPSK Demodulation
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Demodulation%20BD.JPG" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Digital%20message%20restoration.JPG" />
+</div>
+
+### Setup
+
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20Setup.jpg" />
+</div>
+	
+  
+- BPSK Demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20demodulation%20setup.jpg" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20Digital%20data%20restoration%20setup.jpg" />
+</div>
+
+
+### Output
+
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20Generation%20output.jpg" />
+</div>
+
+- BPSK Demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20demodulation%20output.jpg" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20Digital%20data%20restoration%20output.jpg" />
+</div>
+
 
 ### Results and Discussion
 The carrier phase shifted according to the binary input signal producing two phase states.
@@ -382,14 +608,66 @@ Quadrature Phase Shift Keying (QPSK) is an advanced digital modulation technique
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- QPSK Even or odd bits(input signal) setup
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20signal%20recovery%20BD.JPG" />
 </div>
 
+- QPSK Generation
 
-### Code
-QPSK implemented using telecom trainer modules.
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20BD.JPG" />
+</div>
+
+- Digital data recovery
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20Even%20or%20odd%20bits%20BD.JPG" />
+</div>
+
+### Setup
+
+- QPSK Even or odd bits(input signal) setup
+
+<div align="center">
+<img width="500" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/Digital%20data%20input%20setup.JPG" />
+</div>
+
+- QPSK Generation
+
+<div align="center">
+<img width="1000" height="1500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/QPSK%20Setup.JPG" />
+</div>
+
+  
+- Digital data recovery
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/QPSK%20signal%20demodulation%20setup.JPG" />
+</div>
+  
+### Output
+
+- QPSK Even or odd bits(input signal) setup
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/digital%20data%20output.JPG" />
+</div>
+
+- QPSK Generation
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/QPSK%20Output.JPG" />
+</div>
+
+- Digital data recovery
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/QPSK%20X1%20Reconstruction.JPG" />
+</div>
 
 ### Results and Discussion
 The output waveform displayed four phase states representing two-bit combinations.
@@ -415,13 +693,61 @@ Direct Sequence Spread Spectrum (DSSS) spreads the signal over a wider bandwidth
 - Oscilloscope  
 - Patch cords  
 
-### Circuit Diagram
-<div align="center">
+### Block diagram
 
+- DSSS Modulator and demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20Product%20detector%20BD.JPG" />
 </div>
 
-### Code
-DSSS implemented using telecom trainer modules.
+- DSSS with channel signal jammer
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20demodulator%20with%20jamming%20signal%20BD.JPG" />
+</div>
+
+### Setup
+
+- DSSS Modulator and demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2019/DSSS%20Modulation%20and%20demodulation(product%20detector)%20setup.JPG" />
+</div>
+  
+- DSSS with channel signal jammer
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2019/DSSS%20Modulation%20and%20demodulation%20with%20signal%20jamming%20setup.JPG" />
+</div>
+
+### Output
+
+- DSSS Modulator and demodulator
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/DSSS%20Modulation%20and%20demodulation%20output%20comparison.JPG" />
+</div>
+
+  
+- DSSS with channel signal jammer
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/Low%20adder%20gain%20Signal%20jammer%20VCO%20at%20low%20frequency.JPG" />
+</div>
+
+<div align="center">
+ <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/Low%20adder%20gain%20Signal%20jammer%20VCO%20at%20high%20frequency.JPG" />
+ </div>
+
+<div align="center">
+  <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/High%20adder%20gain%20Signal%20jammer%20VCO%20at%20low%20frequency.JPG" />
+  </div>
+
+<div align="center">
+  <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/High%20adder%20gain%20Signal%20jammer%20VCO%20at%20high%20frequency.JPG" />
+  </div>
+
 
 ### Results and Discussion
 The data signal was spread using a pseudo-random sequence and successfully recovered during demodulation.
@@ -448,13 +774,30 @@ Software Defined Radio (SDR) is a communication system in which traditional hard
 - Communication modules  
 
 ### Block diagram
-<div align="center">
 
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2020/Undersampling%20DSBSC%20Signal%20%20BD.JPG" />
 </div>
 
+### Setup
 
-### Code
-Software tools were used to configure communication system parameters.
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2020/DSBSC%20Modulation%20and%20demodulation%20setup.JPG" />
+</div>
+
+  
+- Replace samplig signal with VCO
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2020/DSBSC%20sampling%20modification%20setup.JPG" />
+</div>
+
+### Output
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2020/DSBSC%20demodulation%20output.JPG" />
+</div>
+
 
 ### Results and Discussion
 The SDR platform demonstrated how communication functions can be implemented and modified through software.
