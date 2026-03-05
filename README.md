@@ -429,9 +429,6 @@ Software Defined Radio (SDR) is a communication system in which traditional hard
 - SDR software platform  
 - Communication modules  
 
-### Circuit Diagram
-
-<img ![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/671696ad-6471-430f-a7f4-6407a34a7720) 
 ### Block diagram
 <div align="center">
 <![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/729155f0-7193-4d7a-9b1a-f11d71e26b5a) width="500">
