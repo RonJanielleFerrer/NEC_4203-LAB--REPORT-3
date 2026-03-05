@@ -19,9 +19,7 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - Patch cords  
 
 ### Block diagram: Natural sampling
-<div align="center" width="500" height="500">
-
-![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/5b5af64f-f1a4-44cc-beb9-cff7841b525d)
+<div align="center">
 
 </div>
 
@@ -29,55 +27,61 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 ### Setup: Natural sampling
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Natural%20sampling%20setup.jpg" />
+
 </div>
 
 ### Output
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20sampling%20output.jpg" />
+
 </div>
 
+
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20samping%20and%20message%20comparison.jpg" />
+
 </div>
+
 
 ### Block diagram: Sample and hold/w tunable LPF(message reconstruction)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/S%26H%20%20and%20reconstruction%20BD.jpg" />
+
 </div>
+
 
 ### Setup: Sample and hold sampling/w tunable LPF(message reconstruction)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Sample%20and%20hold%20%20original%20message%20reconstruction%20setup.jpg" />
+
 </div>
+
 
 ### Output: Sample and hold sampling/w tunable LPF(message reconstruction)
 
 - S&H Output
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Sample%20and%20hold%20output.jpg" />
+
 </div>
 
 - Original message and S&H comparison
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20and%20message%20comparison.jpg" />
+
 </div>
+
 
 - Reconstructed Message to Original message comaparison
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20Reconstructed%20message%20comparison.jpg" />
+
 </div>
+
 
 ### Setup: Natural sampling using VCO
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/Natural%20sampling%20setup.JPG" />
+
 </div>
 
 ### Output: Natural sampling using VCO
@@ -85,34 +89,39 @@ Sampling converts a continuous-time analog signal into a discrete-time signal by
 - if VCO frequency is low
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20low%20frequency%20sampling.JPG" />
+
 </div>
+
 
 - if VCO frequency is high
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20high%20frequency%20sampling.JPG" />
+
 </div>
+
 
 ### Setup: S&H Sampling using VCO
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/S%26H%20Sampling%20VCO%20observation%20setup.JPG" />
+
 </div>
+
 
 ### Output: S&H Sampling using VCO
 
 - if VCO frequency is low
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20low%20frequency%20sampling.JPG" />
+
 </div>
+
 
 - if VCO frequency is high
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20high%20frequency%20sampling.JPG" />
+
 </div>
+
 
 
 ### Results and Discussion
@@ -142,27 +151,30 @@ Pulse Code Modulation (PCM) is a digital communication technique that converts a
 ### Block diagram
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%200V%20Input.JPG" />
+
 </div>
+
 
 ### Setup
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/FS%20and%20Digital%20signal%20comparison.jpg" />
+
 </div>
+
 
 ### Output
 
 - CH1(Frame synchronization) and CH2(8kHz digital clock signal) comparison
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Clock%20signal%20and%20Frame%20synchonization%20signal.jpg" />
+
 </div>
+
 
 - CH1(Frame synchronization) and CH2(PCM DATA) comparison
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Frame%20synchronization%20and%20PCM%20output%20data.jpg" />
+
 </div>
 
 - Reading the equivalent binary data of the PCM output
@@ -174,13 +186,13 @@ Pulse Code Modulation (PCM) is a digital communication technique that converts a
 ### Block diagram
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%20Variable%20DC%20Input.JPG" />
+
 </div>
 
 ### Setup
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/PCM%20Setup%20DCV.jpg" />
+
 </div>
 
 
@@ -210,8 +222,9 @@ PCM decoding converts a digital PCM signal back into an analog signal. The decod
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
+
 
 ### Code
 PCM decoding implemented using telecom trainer modules.
@@ -242,7 +255,7 @@ Bandwidth limitations in communication channels can distort digital signals by a
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
 
 ### Code
@@ -274,7 +287,7 @@ Amplitude Shift Keying (ASK) is a digital modulation technique where the amplitu
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
 
 ### Code
@@ -306,8 +319,9 @@ Frequency Shift Keying (FSK) is a digital modulation technique in which the carr
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
+
 
 ### Code
 Implemented using telecom trainer modules.
@@ -338,7 +352,7 @@ Binary Phase Shift Keying (BPSK) is a digital modulation technique where the pha
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
 
 ### Code
@@ -370,8 +384,9 @@ Quadrature Phase Shift Keying (QPSK) is an advanced digital modulation technique
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
+
 
 ### Code
 QPSK implemented using telecom trainer modules.
@@ -402,7 +417,7 @@ Direct Sequence Spread Spectrum (DSSS) spreads the signal over a wider bandwidth
 
 ### Circuit Diagram
 <div align="center">
-<img src="INSERT_DIAGRAM_HERE" width="500">
+
 </div>
 
 ### Code
@@ -434,8 +449,9 @@ Software Defined Radio (SDR) is a communication system in which traditional hard
 
 ### Block diagram
 <div align="center">
-![Undersampling DSBSC Signal  BD](https://github.com/user-attachments/assets/729155f0-7193-4d7a-9b1a-f11d71e26b5a)
+
 </div>
+
 
 ### Code
 Software tools were used to configure communication system parameters.
